@@ -8,8 +8,8 @@ e = '''
 end
 '''
 
-server = Server('10.13.100.6')
-conn = Connection(server, 'enppi\\14293', 'R@@faT!!96Enppi72021', client_strategy=SAFE_SYNC, auto_bind=True)
+server = Server('<LDAP IP>')
+conn = Connection(server, '<Username>', '<Password>', client_strategy=SAFE_SYNC, auto_bind=True)
 
 #pns = open("PNS.txt")
 yt = open("YT.txt")
